@@ -40,6 +40,15 @@ h1 {
     font-family: 'Old Standard TT', serif;
     letter-spacing: 5px;
 }
+
+
+
+
+
+
+
+
+
 /*-- main --*/
 .main {
     padding: 2em 0 0;
@@ -55,7 +64,7 @@ h1 {
 /*-- contact-form --*/
 .signup-wthreetop {
     padding: 1.5em;
-    background:rgba(255, 87, 34, 0.64);
+    background:rgba(79, 129, 189, 0.64);
 }
 .signup-wthreetop h2 {
     font-size: 2em;
@@ -103,8 +112,8 @@ h1 {
     padding: 0.6em 1em;
     font-size: 1em; 
     -webkit-appearance: none;
-    background: #FF5722;
-    border: 2px solid #FF5722;
+    background: #4f81bd;
+    border: 2px solid #4f81bd;
     -webkit-transition: 0.5s all; 
     -moz-transition: 0.5s all;
 	transition: 0.5s all;
@@ -116,7 +125,7 @@ input.agileits-btm {
 }
 .contact-wthree input[type="submit"]:hover {
     background: transparent;
-    color: #FF5722;
+    color: #4f81bd;
     letter-spacing: 3px;
 }
 ::-webkit-input-placeholder {

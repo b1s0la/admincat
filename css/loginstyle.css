@@ -68,7 +68,8 @@ h1 {
 
 .signup-wthreetop {
     padding: 1.5em;
-    background:rgba(255, 87, 34, 0.64);
+    background:rgba(79, 129, 189, 0.64);
+    
 }
 .signup-wthreetop h2 {
     font-size: 2em;
@@ -194,8 +195,8 @@ h1 {
     padding: 0.6em 1em;
     font-size: 1em; 
     -webkit-appearance: none;
-    background: #FF5722;
-    border: 2px solid #FF5722;
+    background: #4f81bd;
+    border: 2px solid #4f81bd;
     -webkit-transition: 0.5s all; 
     -moz-transition: 0.5s all;
     transition: 0.5s all;
@@ -204,7 +205,7 @@ h1 {
 }
 .login-form input[type="submit"]:hover {
     background: transparent;
-    color: #FF5722 !important;
+    color: #4f81bd !important;
     letter-spacing: 3px;
 }
 
@@ -375,6 +376,7 @@ input.agileits-btm {
 	-o-transition:.5s all;
 	-ms-transition:.5s all;
 	transition:.5s all;
+    text-decoration: none !important;
 }
 /*-- //login-two --*/
 .login-form.login-form-three {
@@ -390,13 +392,14 @@ input.agileits-btm {
 	color:#ca255e; 
 }
 .login-form.login-form-three p.w3ls-line a {
-    color: #FF5722;
+    color: #4f81bd;
 }
 .login-form.login-form-three .login-agileits-bottom p a:hover {
-    color: #ca255e;
+    color: #4f81bd;
 }
 .login-form.login-form-three p.w3ls-line a:hover {
     color: #fff;
+    outline: none !important;
 }
 /*-- responsive-design --*/ 
 @media(max-width:1366px){
