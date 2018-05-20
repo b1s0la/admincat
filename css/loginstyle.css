@@ -30,7 +30,7 @@ img{max-width:100%;}
 body {
 
      font-family: 'Open Sans', sans-serif;
-    background: url(../images/bg.jpg)repeat center 0px; 
+    /*background: url(../images/bg.jpg)repeat center 0px; */
     background-size: cover;
 }
 h1 {
@@ -99,7 +99,7 @@ h1 {
 }
 .agile-row {
     padding: 3em;
-    /*background-color: rgba(0, 0, 0, 0.55);*/
+   background: rgba(37, 37, 37, 0.61);
 }
 .input-row {
     padding: 1em 1.5em;

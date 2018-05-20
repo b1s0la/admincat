@@ -24,7 +24,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <style>
 /* The container */
-label.container {
+/*label.container {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -35,17 +35,17 @@ label.container {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
+}*/
 
 /* Hide the browser's default radio button */
-.container input {
+/*.container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-}
+}*/
 
 /* Create a custom radio button */
-.checkmark {
+/*.checkmark {
     position: absolute;
     top: 6!important;
     left: 0;
@@ -53,39 +53,39 @@ label.container {
     width: 25px;
     background-color: #eee;
     border-radius: 50%;
-}
+}*/
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+/*.container:hover input ~ .checkmark {
     background-color: #ccc;
-}
+}*/
 
 /* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
+/*.container input:checked ~ .checkmark {
     background-color: #4f81bd;
-}
+}*/
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
+/*.checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
-
+*/
 /* Show the indicator (dot/circle) when checked */
-.container input:checked ~ .checkmark:after {
+/*.container input:checked ~ .checkmark:after {
     display: block;
-}
+}*/
 
 /* Style the indicator (dot/circle) */
-.container .checkmark:after {
+/*.container .checkmark:after {
  	top: 9px;
 	left: 9px;
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
 	background: white;
-}
+}*/
 .ahover:hover {
     text-decoration: none !important;
 }
@@ -132,18 +132,20 @@ label.container {
 					        
 					      </div>
 					      <div class="modal-body">
-					        <label class="container" style="text-align: left;">Private User
+					        <!-- <label class="container" style="text-align: left;">Private User
 							  <input type="radio" checked="checked" name="radio">
 							  <span class="checkmark"></span>
 							</label>
 							<label class="container" style="text-align: left;">Organisation User
 							  <input type="radio" name="radio">
 							  <span class="checkmark"></span>
-							</label>
+							</label> -->
+							<a href="registerperson.html"><button>Private User</button></a>
+							<a href="registerorganisation.html"><button>Organisation User</button></a>
 					      </div>
 					      <div class="modal-footer">
-					        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-					        <button type="button" class="btn" style="background:#4f81bd; color:#fff;">Ok</button>
+					        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+					        <button type="button" class="btn" style="background:#4f81bd; color:#fff;">Ok</button> -->
 					      </div>
 					    </div>
 					  </div>
